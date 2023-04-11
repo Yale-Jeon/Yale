@@ -1,0 +1,23 @@
+- Objective
+
+이전에 작성한 Blackjack은 customized rule을 사용하였다. customizedrule이 아닌 real rule을 사용한
+Blackjack을 코드로 제작하고 ai를 학습시켜 standard로 제작된 ai를 넘어서는 policy를 찾아내보자.
+
+- real rule
+	- 시작할때 딜러는 1장, 플레이어는 2장의 카드를 가지고 시작한다.
+	- 카드는 2~9는 숫자대로 점수를 가지고  J, Q, K는 10점을 가지고 A는 1점과 11점 중 선택할
+	   수 있다.
+	- 플레이어는 가진 점수가 22점 미만이라면 Hit할 수 있고 카드를 1장 더 받게 된다.
+	- 플레이어와 딜러는 카드의 점수가 22점 이상이 되면 Burst하여 즉시 패배한다.
+	- 플레이어가 pass를 하면 카드를 더이상 받지 못하고 dealer의 차례가 된다.
+	- 카드 2장으로 21점을 완성하면 가장 강력한 패인 Blackjack이 된다.
+	- Burst하지 않고 점수가 더 높은 쪽이 승자가 되어 승점 1점을 얻는다.
+	- 플레이어와 딜러의 점수가 같으면 tie하여 무승부가 된다.
+
+
+- standard dealer
+	- 가진 카드의 합계가 16점 이하이거나 소프트17(A가 11로 계산된 17)일 경우 Hit한다
+	- 그 이상일 때는 pass한다
+
+- challenging dealer 
+	- player를 이길 때 까지 Hit한다

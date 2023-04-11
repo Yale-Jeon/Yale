@@ -1,0 +1,11 @@
+test1 = 단순 hit할때 data
+
+test2 = 점수 12미만일때 강제 hit( 강제hit시는 기록x) 
+
+pass일때 기록이 없어 pass일때 기록 추가
+test3 = hit
+test4 = pass
+
+data를 a=1일떄내점수, ai점수, 내점수로 변경 ( a=1, 11이 잘 반영되지 않는거같아서)
+test5 = hit
+test6 = pass

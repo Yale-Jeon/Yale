@@ -1,0 +1,2 @@
+Improved_Blackjack has better AI.
+AI actions Hit when Hit will make AIscore not beyond 21. Else, action pass.

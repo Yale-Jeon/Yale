@@ -1,0 +1,13 @@
+This Blackjack has customized game rule.
+
+	- Start with no card.
+	- Cards with values: J=11, Q=12, K=13, A=1
+	- Can see five cards in advance for each round
+	- Each round has two decisions: 
+		- First, Player actions Hit or Pass : Hit means receiving a card
+		- Second, AI actions Hit or Pass : Hit means receiving a card
+	- Winner : 
+		- who first reach 21 for the card sum (Beyond 21 == Lose)
+	- Both pass for a single round :
+		- Higher score wins
+		- Same score means tie
