@@ -1,0 +1,4 @@
+Number of cities = 20인 TSP1.csv 상황에서 Prim만 best solution을 찾고 속도도 가장빠름
+randomsearch가 가장 느림
+
+number가 증가하게되면?
