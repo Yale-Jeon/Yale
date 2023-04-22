@@ -74,7 +74,7 @@ class RegressionAnalysis:
 if __name__ == "__main__":
     dataX = []
     dataY = []
-    file = open('./test6.csv','r')
+    file = open('test6.csv', 'r')
     csvReader = csv.reader(file)
     next(csvReader)
     for row in csvReader:
